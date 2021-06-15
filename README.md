@@ -17,6 +17,8 @@ This project requires Node.js, Express, and Nano ID. The user will need to run `
 ## Usage
 The user can click on the Get Started button to be taken to the note-taking application, where they can enter the note title and text and save it for later viewing. If the user wishes to delete a note, they can click the delete button to remove it. 
 
+[A link to the deployed application](https://ejrnotetaker.herokuapp.com/ "View deployed application")
+
 ![A demonstration of the deployed Note Taker application](assets/NoteTakerdemo.gif)
 
 ## Contributing
