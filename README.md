@@ -1,7 +1,7 @@
 # NoteTaker [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-This project was  
+The goal of this project was to create a note taking application for every day use. It is designed to be simplistic and easy to use. 
 
 ## Table of Contents
 1. [Installation](#Installation)
@@ -17,7 +17,7 @@ This project requires Node.js, Express, and Nano ID. The user will need to run `
 ## Usage
 The user can click on the Get Started button to be taken to the note-taking application, where they can enter the note title and text and save it for later viewing. If the user wishes to delete a note, they can click the delete button to remove it. 
 
-[A link to the deployed application](https://ejrnotetaker.herokuapp.com/ "View deployed application")
+[View deployed application](https://ejrnotetaker.herokuapp.com/)
 
 ![A demonstration of the deployed Note Taker application](assets/NoteTakerdemo.gif)
 
