@@ -19,10 +19,6 @@ app.use(express.json());
 app.use("/static", express.static('./static/'));
 
 // ROUTES ///////////////////////
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/index.html'));
-});
-
 app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/notes.html'));
 })
@@ -36,6 +32,10 @@ app.get('/api/notes', (req, res) => {
         parsedData = JSON.parse(data);
         res.json(parsedData);
     })
+});
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/index.html'));
 });
 
 // takes user input, addes unique id with nanoid, pushes to storage array, stringifies array and writes .json file with stringified array
